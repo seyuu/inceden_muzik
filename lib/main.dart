@@ -28,7 +28,7 @@ class MuzikApp extends StatelessWidget {
         backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
-            // tüm satırı kaplatıyoruz
+            // tüm satırı kaplatıyoruz.
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               buildKey(color: Colors.red, soundNumber: 1),
